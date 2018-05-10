@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.scdc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -11,9 +11,9 @@ SCDC毒物数据库
     <author email="FutureCoder@aliyun.com" href="project256.com">
         FutureCoder
     </author>
-    <content src="https://www.baidu.com" />
+    <content src="http://www.doutu66.com/mobile/index.html#/" />
+    <allow-navigation href="http://www.doutu66.com/" />
     <access origin="*" />
-    <allow-navigation href="https://www.baidu.com" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -36,11 +36,4 @@ SCDC毒物数据库
     <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
     <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
     <preference name="loglevel" value="DEBUG" />
-    <feature name="RareloopAppVersion">
-        <param name="android-package" value="com.rareloop.cordova.appversion.RareloopAppVersion" />
-    </feature>
-    <feature name="AppUpdate">
-        <param name="android-package" value="com.vaenow.appupdate.android.CheckAppUpdate" />
-        <param name="onload" value="true" />
-    </feature>
 </widget>

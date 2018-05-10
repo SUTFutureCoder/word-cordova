@@ -9,14 +9,7 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-app-update": {
-      "PACKAGE_NAME": "io.cordova.scdc"
     }
   },
-  "dependent_plugins": {
-    "cordova-plugin-appversion": {
-      "PACKAGE_NAME": "io.cordova.scdc"
-    }
-  }
+  "dependent_plugins": {}
 }
