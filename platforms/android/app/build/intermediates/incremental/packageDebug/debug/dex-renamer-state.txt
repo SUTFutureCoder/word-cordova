@@ -1,4 +1,4 @@
-#Thu May 10 10:14:40 CST 2018
+#Sat May 12 20:50:26 CST 2018
 base.0=/Users/baidu/Github/word-cordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 file.0=/Users/baidu/Github/word-cordova/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

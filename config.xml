@@ -8,7 +8,7 @@ SCDC毒物数据库
         FutureCoder
     </author>
     <content src="http://www.doutu66.com/mobile/index.html#/" />
-    <allow-navigation href="http://www.doutu66.com/" />
+    <allow-navigation href="http://www.doutu66.com/*" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -65,8 +65,11 @@ SCDC毒物数据库
         <splash height="1334" src="res/screen/ios/screen-iphone-portrait-2x.png" width="750" />
         <splash height="2208" src="res/screen/ios/screen-iphone-portrait-2x.png" width="1242" />
         <splash height="1242" src="res/screen/ios/screen-iphone-landscape-2x.png" width="2208" />
+        <splash height="2436" src="res/screen/ios/screen-iphone-x.png" width="1125" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.4" />
 </widget>
