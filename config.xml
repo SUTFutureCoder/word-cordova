@@ -9,7 +9,6 @@ SCDC毒物数据库
     </author>
     <content src="http://www.doutu66.com/mobile/index.html#/" />
     <allow-navigation href="http://www.doutu66.com/" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -67,6 +66,7 @@ SCDC毒物数据库
         <splash height="2208" src="res/screen/ios/screen-iphone-portrait-2x.png" width="1242" />
         <splash height="1242" src="res/screen/ios/screen-iphone-landscape-2x.png" width="2208" />
     </platform>
+    <plugin name="cordova-plugin-whitelist" spec="1" />
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.4" />
 </widget>
