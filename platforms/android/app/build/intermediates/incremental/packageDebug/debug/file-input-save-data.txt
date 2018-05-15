@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat May 12 20:50:26 CST 2018
+#Mon May 14 12:50:15 CST 2018
 25.file=/Users/baidu/Github/word-cordova/platforms/android/app/build/intermediates/assets/debug/www/cordova_plugins.js
 25.base=/Users/baidu/Github/word-cordova/platforms/android/app/build/intermediates/assets/debug
 22.set=ANDROID_RESOURCE
